@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro:400,500|El+Messiri|Open+Sans+Condensed:300,700&display=swap');
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+/* Nav */
+
+.navbar-brand {
+    font-family: 'El Messiri';
+    font-size: 32px;
+    text-transform: uppercase;
+    padding: 0;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.navbar-nav li {
+    padding-bottom: 4px;
+    font-size: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.drop-down:hover {
+    background-color: red;
+}
