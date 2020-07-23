@@ -63,4 +63,13 @@ body {
   font-family: "El Messiri", sans-serif;
   text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
 }
+
+/* Cards */
+.cards i {
+  font-size: 35px;
+}
+
+.cards h5 {
+  font-size: 28px;
+}
 /*# sourceMappingURL=style.css.map */
