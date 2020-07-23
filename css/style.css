@@ -5,6 +5,7 @@ body {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 18px;
   box-sizing: border-box;
+  cursor: default;
 }
 
 /* Nav */
@@ -66,10 +67,39 @@ body {
 
 /* Cards */
 .cards i {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .cards h5 {
-  font-size: 28px;
+  font-size: 30px;
+}
+
+/* News */
+.news .card {
+  border: none;
+}
+
+.news h5 {
+  font-size: 27px;
+}
+
+.news p {
+  font-size: 19px;
+}
+
+.sub-logo {
+  font-family: "El Messiri", sans-serif;
+}
+
+.font-awesome i {
+  font-size: 25px;
+}
+
+.font-awesome i:hover {
+  cursor: pointer;
+}
+
+.news a {
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
