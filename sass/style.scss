@@ -38,10 +38,19 @@ body {
 .carousel-item img {
     height: 100%;
     object-fit: cover;
+    filter: brightness(85%);
 }
 
 .edition-name {
     font-family: 'El Messiri', sans-serif;
     font-size: 70px;
-    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
+}
+
+/* Products */
+
+.card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
 }
