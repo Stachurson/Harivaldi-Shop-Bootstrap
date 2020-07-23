@@ -58,6 +58,10 @@ body {
   font-size: 33px;
 }
 
+.pad {
+  padding-top: 30px;
+}
+
 /* Adv */
 .adv-title {
   font-size: 43px;
@@ -75,8 +79,13 @@ body {
 }
 
 /* News */
+.news, .news .card {
+  background-color: #dfdfdf;
+}
+
 .news .card {
   border: none;
+  margin-bottom: 50px;
 }
 
 .news h5 {
@@ -101,5 +110,9 @@ body {
 
 .news a {
   text-decoration: none;
+}
+
+.form-group input {
+  outline: red;
 }
 /*# sourceMappingURL=style.css.map */
