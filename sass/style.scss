@@ -55,7 +55,7 @@ body {
 
 .edition-name {
     font-family: $font-brand;
-    font-size: 70px;
+    font-size: 55px;
     text-shadow: $shadow;
 }
 
@@ -149,6 +149,10 @@ body {
 
 .form-group input {
     outline: red;
+}
+
+.news .pay {
+    font-size: 30px;
 }
 
 

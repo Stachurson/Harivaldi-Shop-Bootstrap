@@ -43,7 +43,7 @@ body {
 
 .edition-name {
   font-family: "El Messiri", sans-serif;
-  font-size: 70px;
+  font-size: 55px;
   text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.8);
 }
 
@@ -128,6 +128,10 @@ body {
 
 .form-group input {
   outline: red;
+}
+
+.news .pay {
+  font-size: 30px;
 }
 
 /* Footer */
