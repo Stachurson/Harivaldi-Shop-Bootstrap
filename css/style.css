@@ -54,6 +54,15 @@ body {
   object-fit: cover;
 }
 
+.card-image {
+  filter: brightness(60%);
+  transition: all 0.8s;
+}
+
+.card-image:hover {
+  filter: brightness(100%);
+}
+
 .products-title {
   font-size: 33px;
 }
@@ -119,5 +128,19 @@ body {
 
 .form-group input {
   outline: red;
+}
+
+/* Footer */
+.footer {
+  background-color: #dfdfdf;
+}
+
+.small-logo {
+  font-family: "El Messiri", sans-serif;
+}
+
+.footer ul a {
+  text-decoration: none;
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */
